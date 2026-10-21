@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Geist", "Helvetica Neue", Arial, sans-serif;
+  color: #151514;
+  background: #ebe9e5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: #ebe9e5;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #ebe9e5;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #ebe9e5;
+  background: #151514;
+}
